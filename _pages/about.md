@@ -17,7 +17,7 @@ Publications
   ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
   *USENIX NSDI 2024*
 
-- **In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [to appear]      
+- **ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [to appear]      
   Wenquan Xu, Zijian Zhang, ***Yong Feng***, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu      
   *SIGCOMM 2023*
 
