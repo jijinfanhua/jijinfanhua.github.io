@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Yong Feng's Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,45 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi, I’m Yong Feng. I’m currently a graduate student at Department of Computer Science and Technology, Tsinghua University. My advisor is Bin Liu. My current research interests are: programmable switch architectures, NICs, data center network, IP compression and lookup, in-network computation.
+
+Publications
+======
+
+- **Empower Programmable Pipeline for Advanced Stateful Packet Processing** [to appear]   
+  ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
+  **USENIX NSDI 2024**
+
+- **In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [to appear]      
+  Wenquan Xu, Zijian Zhang, ***Yong Feng***, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu      
+  **SIGCOMM 2023**
+
+- **ISAC: In-Switch Approximate Cache for IoT Object Detection and Recognition** [[link]](https://www.researchgate.net/publication/371174202_ISAC_In-Switch_Approximate_Cache_for_IoT_Object_Detection_and_Recognition)      
+  Wenquan Xu, Zijian Zhang, Haoyu Song, Shuxin Liu, ***Yong Feng***, Bin Liu      
+  **INFOCOM 2023**
+
+- **Enabling In-situ Programmability in Network Data Plane: From Architecture to Language** [[link]](https://www.usenix.org/conference/nsdi22/presentation/feng)  
+  ***Yong Feng***, Zhikang Chen, Haoyu Song, Wenquan Xu, Jiahao Li, Zijian Zhang, Tong Yun, Bin Liu   
+  **USENIX NSDI 2022**
+
+- **In-situ Programmable Switching using rP4: Towards Runtime Data Plane Programmability** [[link]](https://dl.acm.org/doi/10.1145/3484266.3487367)  
+  ***Yong Feng***, Haoyu Song, Jiahao Li, Zhikang Chen, Wenquan Xu, Bin Liu       
+  **HotNets 2021**
+
+- **PBC: Effective Prefix Caching for Fast Name Lookups** [[link]](https://ieeexplore.ieee.org/document/9142703)  
+  Chuwen Zhang, ***Yong Feng***, Haoyu Song, Beichuan Zhang, Yi Wang, Ying Wan, Wenquan Xu, Bin Liu     
+  **Networking 2020**
+
+- **P3R: Realizing Robust Routing for VANET Using Trajectory Prediction and Crossroad Recognition** [[link]](https://ieeexplore.ieee.org/document/8975783)  
+  Chuwen Zhang, Huichen Dai, ***Yong Feng***, Yang Li, Wenquan Xu, Xuefeng Ji, Ying Wan, Gong Zhang, Bin Liu        
+  **ICPADS 2019**
+
+- **OBMA: Minimizing Bitmap Data Structure with Fast and Uninterrupted Update Processing** [[link]](https://ieeexplore.ieee.org/document/8624188)  
+  Chuwen Zhang, ***Yong Feng***, Haoyu Song, Ying Wan, Wenquan Xu, Yilun Wang, Huichen Dai, Yang Li, Bin Liu       
+  **IWQoS 2018**
+
+
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -47,4 +85,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
