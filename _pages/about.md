@@ -22,7 +22,7 @@ Publications
   *SIGCOMM 2024* **\*co-first author**
 
 - **Empower Programmable Pipeline for Advanced Stateful Packet Processing** [[link]](https://www.usenix.org/conference/nsdi24/presentation/feng-yong)  
-  ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
+  ***Yong Feng\****, Zhikang Chen\*, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
   *USENIX NSDI 2024*
 
 - **ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [[link]](https://www.researchgate.net/publication/373620147_ClickINC_In-network_Computing_as_a_Service_in_Heterogeneous_Programmable_Data-center_Networks)      
