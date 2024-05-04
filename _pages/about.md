@@ -13,6 +13,10 @@ Hi, I’m Yong Feng. I’m currently a graduate student at Department of Compute
 Publications
 ======
 
+- **Enhancing Stateful Processing in Programmable Data Planes: Model and Improved Architecture** [under review] 
+  ***Yong Feng***, Hanyi Zhou, Shuxin Liu, Zhikang Chen, Haoyu Song, Bin Liu  
+  *IEEE/ACM Transactions on Networking (ToN)*
+
 - **OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture** [to appear]  
   Zhikang Chen, ***Yong Feng\****, Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu   
   *SIGCOMM 2024* **\*co-first author**
