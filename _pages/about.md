@@ -15,7 +15,7 @@ Publications
 
 - **OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture** [to appear]  
   Zhikang Chen, ***Yong Feng****, Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu  
-  *SIGCOMM 2024* *co-first author
+  *SIGCOMM 2024* co-first author
 
 - **Empower Programmable Pipeline for Advanced Stateful Packet Processing** [[link]](https://www.usenix.org/conference/nsdi24/presentation/feng-yong)  
   ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
