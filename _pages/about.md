@@ -18,7 +18,7 @@ Publications
   *IEEE/ACM Transactions on Networking (ToN)*
 
 - **OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture** [to appear]  
-  Zhikang Chen, ***Yong Feng\****, Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu   
+  Zhikang Chen\*, ***Yong Feng\****, Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu   
   *SIGCOMM 2024* **\*co-first author**
 
 - **Empower Programmable Pipeline for Advanced Stateful Packet Processing** [[link]](https://www.usenix.org/conference/nsdi24/presentation/feng-yong)  
