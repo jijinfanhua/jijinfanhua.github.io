@@ -22,7 +22,7 @@ Publications
 <span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Stateful</span>
 </span>  
 ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu  
-**<span style="color:red">USENIX NSDI 2024 (Tier-1 International Conference in Networking)</span>**
+**USENIX NSDI 2024 (Tier-1 International Conference in Networking)**
 
 ---
 
@@ -33,7 +33,7 @@ Publications
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
 </span>  
 ***Yong Feng***, Zhikang Chen, Haoyu Song, Wenquan Xu, Jiahao Li, Zijian Zhang, Tong Yun, Bin Liu  
-**<span style="color:red">USENIX NSDI 2022 (Tier-1 International Conference in Networking)</span>**
+**USENIX NSDI 2022 (Tier-1 International Conference in Networking)**
 
 ---
 
@@ -44,7 +44,7 @@ Publications
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
 </span>  
 Zhikang Chen\*, ***Yong Feng\**** (**\*co-first author**), Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu  
-**<span style="color:blue">ACM SIGCOMM 2024 (Tier-1 International Conference in Networking)</span>**
+**ACM SIGCOMM 2024 (Tier-1 International Conference in Networking)**
 
 ---
 
@@ -55,7 +55,7 @@ Zhikang Chen\*, ***Yong Feng\**** (**\*co-first author**), Shuxin Liu, Haoyu Son
 <span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Stateful</span>
 </span>  
 ***Yong Feng***, Hanyi Zhou, Shuxin Liu, Zhikang Chen, Haoyu Song, Bin Liu  
-**<span style="color:darkorange">IEEE/ACM Transactions on Networking (ToN) — CCF A-class Journal</span>**
+**IEEE/ACM Transactions on Networking (ToN) — CCF A-class Journal**
 
 ---
 
@@ -66,7 +66,7 @@ Zhikang Chen\*, ***Yong Feng\**** (**\*co-first author**), Shuxin Liu, Haoyu Son
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
 </span>  
 Yinchao Zhang, Su Yao, ***Yong Feng***, Kang Chen, Tong Li, Zhuotao Liu, Yi Zhao, Lexuan Zhang, Xiangyu Gao, Feng Xiong, Qi Li, Ke Xu  
-**<span style="color:blue">ACM SIGCOMM 2025 (Tier-1 International Conference in Networking)</span>**
+**ACM SIGCOMM 2025 (Tier-1 International Conference in Networking)**
 
 ---
 
@@ -77,7 +77,7 @@ Yinchao Zhang, Su Yao, ***Yong Feng***, Kang Chen, Tong Li, Zhuotao Liu, Yi Zhao
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Network</span>
 </span>  
 Chuwen Zhang, Ying Wan, Hongyang Dang, Yuchen Xu, Wenquan Xu, ***Yong Feng\**** (**\*corresponding author**), Junchen Jiang, Congcong Miao  
-**<span style="color:red">USENIX NSDI 2026 (To Submit)</span>**
+**USENIX NSDI 2026 (To Submit)**
 
 ---
 
@@ -88,7 +88,7 @@ Chuwen Zhang, Ying Wan, Hongyang Dang, Yuchen Xu, Wenquan Xu, ***Yong Feng\**** 
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
 </span>  
 Wenquan Xu, Zijian Zhang, ***Yong Feng***, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu  
-**<span style="color:blue">ACM SIGCOMM 2023 (Tier-1 International Conference in Networking)</span>**
+**ACM SIGCOMM 2023 (Tier-1 International Conference in Networking)**
 
 ---
 
