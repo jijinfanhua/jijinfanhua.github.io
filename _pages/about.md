@@ -15,82 +15,146 @@ My current research interests are: AI training and inferencing, Switch/Router/NI
 Publications
 ======
 
-- <span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span> 
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+**Empower Programmable Pipeline for Advanced Stateful Packet Processing** [[link]](https://www.usenix.org/conference/nsdi24/presentation/feng-yong)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Stateful</span>
- **Empower Programmable Pipeline for Advanced Stateful Packet Processing** [[link]](https://www.usenix.org/conference/nsdi24/presentation/feng-yong)  
-  ***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu   
-  **<span style="color:red">USENIX NSDI 2024 (Tier-1 International Conference in Networking)</span>**   
+</span>  
+***Yong Feng***, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu  
+**<span style="color:red">USENIX NSDI 2024 (Tier-1 International Conference in Networking)</span>**
 
--  <span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span> 
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+---
+
+**Enabling In-situ Programmability in Network Data Plane: From Architecture to Language** [[link]](https://www.usenix.org/conference/nsdi22/presentation/feng)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
-  **Enabling In-situ Programmability in Network Data Plane: From Architecture to Language** [[link]](https://www.usenix.org/conference/nsdi22/presentation/feng)  
-  ***Yong Feng***, Zhikang Chen, Haoyu Song, Wenquan Xu, Jiahao Li, Zijian Zhang, Tong Yun, Bin Liu   
-  **<span style="color:red">USENIX NSDI 2022 (Tier-1 International Conference in Networking)</span>**
+</span>  
+***Yong Feng***, Zhikang Chen, Haoyu Song, Wenquan Xu, Jiahao Li, Zijian Zhang, Tong Yun, Bin Liu  
+**<span style="color:red">USENIX NSDI 2022 (Tier-1 International Conference in Networking)</span>**
 
-- <span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Aggregation</span>
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+---
+
+**OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture** [[link]](https://dl.acm.org/doi/10.1145/3651890.3672214)  
+<span style="font-size:90%">
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Aggregation</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
-  **OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture** [[link]](https://dl.acm.org/doi/10.1145/3651890.3672214)    
-  Zhikang Chen\*, ***Yong Feng\**** (**\*co-first author**), Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu   
-  **<span style="color:blue">ACM SIGCOMM 2024 (Tier-1 International Conference in Networking)</span>**  
+</span>  
+Zhikang Chen\*, ***Yong Feng\**** (**\*co-first author**), Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu  
+**<span style="color:blue">ACM SIGCOMM 2024 (Tier-1 International Conference in Networking)</span>**
 
-- <span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span> 
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+---
+
+**Enhancing Stateful Processing in Programmable Data Planes: Model and Improved Architecture** [[link]](https://ieeexplore.ieee.org/document/10787343)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Stateful</span>
-  **Enhancing Stateful Processing in Programmable Data Planes: Model and Improved Architecture** [[link]](https://ieeexplore.ieee.org/document/10787343)      
-  ***Yong Feng***, Hanyi Zhou, Shuxin Liu, Zhikang Chen, Haoyu Song, Bin Liu  
-  **<span style="color:darkorange">IEEE/ACM Transactions on Networking (ToN) — CCF A-class Journal</span>**
+</span>  
+***Yong Feng***, Hanyi Zhou, Shuxin Liu, Zhikang Chen, Haoyu Song, Bin Liu  
+**<span style="color:darkorange">IEEE/ACM Transactions on Networking (ToN) — CCF A-class Journal</span>**
 
-- <span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Inference</span>
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+---
+
+**Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane** [[link]](https://dl.acm.org/doi/10.1145/3718958.3750529)  
+<span style="font-size:90%">
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Inference</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
-  **Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane** [[link]](https://dl.acm.org/doi/10.1145/3718958.3750529)  
-  Yinchao Zhang, Su Yao, ***Yong Feng***, Kang Chen, Tong Li, Zhuotao Liu, Yi Zhao, Lexuan Zhang, Xiangyu Gao, Feng Xiong, Qi Li, Ke Xu  
-  **<span style="color:blue">ACM SIGCOMM 2025 (Tier-1 International Conference in Networking)</span>**  
+</span>  
+Yinchao Zhang, Su Yao, ***Yong Feng***, Kang Chen, Tong Li, Zhuotao Liu, Yi Zhao, Lexuan Zhang, Xiangyu Gao, Feng Xiong, Qi Li, Ke Xu  
+**<span style="color:blue">ACM SIGCOMM 2025 (Tier-1 International Conference in Networking)</span>**
 
-- <span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">LLM Inference</span>
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">System Deployment</span> 
+---
+
+**Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation**  
+<span style="font-size:90%">
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">LLM Inference</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">System Deployment</span>
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Network</span>
-  **Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation** 
-  Chuwen Zhang, Ying Wan, Hongyang Dang, Yuchen Xu, Wenquan Xu, ***Yong Feng\**** (**\*corresponding author**), Junchen Jiang, Congcong Miao   
-  **<span style="color:red">USENIX NSDI 2026 (To Submit)</span>**
+</span>  
+Chuwen Zhang, Ying Wan, Hongyang Dang, Yuchen Xu, Wenquan Xu, ***Yong Feng\**** (**\*corresponding author**), Junchen Jiang, Congcong Miao  
+**<span style="color:red">USENIX NSDI 2026 (To Submit)</span>**
 
-- <span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Aggregation</span>
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Heterogeneous
- Deployment</span> 
+---
+
+**ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [[link]](https://www.researchgate.net/publication/373620147_ClickINC_In-network_Computing_as_a_Service_in_Heterogeneous_Programmable_Data-center_Networks)  
+<span style="font-size:90%">
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI Aggregation</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Heterogeneous Deployment</span>
 <span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
-  **ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks** [[link]](https://www.researchgate.net/publication/373620147_ClickINC_In-network_Computing_as_a_Service_in_Heterogeneous_Programmable_Data-center_Networks)      
-  Wenquan Xu, Zijian Zhang, ***Yong Feng***, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu      
-  **<span style="color:blue">ACM SIGCOMM 2023 (Tier-1 International Conference in Networking)</span>**
+</span>  
+Wenquan Xu, Zijian Zhang, ***Yong Feng***, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu  
+**<span style="color:blue">ACM SIGCOMM 2023 (Tier-1 International Conference in Networking)</span>**
 
-- <span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span> 
-<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span> 
+---
+
+**In-situ Programmable Switching using rP4: Towards Runtime Data Plane Programmability** [[link]](https://dl.acm.org/doi/10.1145/3484266.3487367)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
 <span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Runtime</span>
-  **In-situ Programmable Switching using rP4: Towards Runtime Data Plane Programmability** [[link]](https://dl.acm.org/doi/10.1145/3484266.3487367)  
-  ***Yong Feng***, Haoyu Song, Jiahao Li, Zhikang Chen, Wenquan Xu, Bin Liu       
-  *HotNets 2021*
+</span>  
+***Yong Feng***, Haoyu Song, Jiahao Li, Zhikang Chen, Wenquan Xu, Bin Liu  
+*HotNets 2021*
 
-- **Extend P4 to Support Runtime Programmability** [[video]](https://www.youtube.com/watch?v=BiIdCHfH4Sw)[[slides]](https://opennetworking.org/wp-content/uploads/2022/05/Yong-Feng-Final-Slide-Deck.pdf)   
-  ***Yong Feng***, Haoyu Song, Bin Liu   
-  *P4 Workshop 2022 (In-depth Talk)*
+---
 
-- **ISAC: In-Switch Approximate Cache for IoT Object Detection and Recognition** [[link]](https://www.researchgate.net/publication/371174202_ISAC_In-Switch_Approximate_Cache_for_IoT_Object_Detection_and_Recognition)      
-  Wenquan Xu, Zijian Zhang, Haoyu Song, Shuxin Liu, ***Yong Feng***, Bin Liu      
-  *INFOCOM 2023*
+**Extend P4 to Support Runtime Programmability** [[video]](https://www.youtube.com/watch?v=BiIdCHfH4Sw)[[slides]](https://opennetworking.org/wp-content/uploads/2022/05/Yong-Feng-Final-Slide-Deck.pdf)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Architecture</span>
+<span style="background:#E91E63; color:white; border-radius:6px; padding:2px 6px;">Compile</span>
+</span>  
+***Yong Feng***, Haoyu Song, Bin Liu  
+*P4 Workshop 2022 (In-depth Talk)*
 
-- **PBC: Effective Prefix Caching for Fast Name Lookups** [[link]](https://ieeexplore.ieee.org/document/9142703)  
-  Chuwen Zhang, ***Yong Feng***, Haoyu Song, Beichuan Zhang, Yi Wang, Ying Wan, Wenquan Xu, Bin Liu     
-  *Networking 2020*
+---
 
-- **P3R: Realizing Robust Routing for VANET Using Trajectory Prediction and Crossroad Recognition** [[link]](https://ieeexplore.ieee.org/document/8975783)  
-  Chuwen Zhang, Huichen Dai, ***Yong Feng***, Yang Li, Wenquan Xu, Xuefeng Ji, Ying Wan, Gong Zhang, Bin Liu        
-  *ICPADS 2019*
+**ISAC: In-Switch Approximate Cache for IoT Object Detection and Recognition** [[link]](https://www.researchgate.net/publication/371174202_ISAC_In-Switch_Approximate_Cache_for_IoT_Object_Detection_and_Recognition)  
+<span style="font-size:90%">
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">AI</span>
+<span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Cache</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Dataplane</span>
+</span>  
+Wenquan Xu, Zijian Zhang, Haoyu Song, Shuxin Liu, ***Yong Feng***, Bin Liu  
+*IEEE INFOCOM 2023*
 
-- **OBMA: Minimizing Bitmap Data Structure with Fast and Uninterrupted Update Processing** [[link]](https://ieeexplore.ieee.org/document/8624188)  
-  Chuwen Zhang, ***Yong Feng***, Haoyu Song, Ying Wan, Wenquan Xu, Yilun Wang, Huichen Dai, Yang Li, Bin Liu       
-  *IWQoS 2018*
+---
+
+**PBC: Effective Prefix Caching for Fast Name Lookups** [[link]](https://ieeexplore.ieee.org/document/9142703)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Cache</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">System</span>
+</span>  
+Chuwen Zhang, ***Yong Feng***, Haoyu Song, Beichuan Zhang, Yi Wang, Ying Wan, Wenquan Xu, Bin Liu  
+*IFIP Networking 2020*
+
+---
+
+**P3R: Realizing Robust Routing for VANET Using Trajectory Prediction and Crossroad Recognition** [[link]](https://ieeexplore.ieee.org/document/8975783)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Mobility</span>
+<span style="background:#9C27B0; color:white; border-radius:6px; padding:2px 6px;">Prediction</span>
+</span>  
+Chuwen Zhang, Huichen Dai, ***Yong Feng***, Yang Li, Wenquan Xu, Xuefeng Ji, Ying Wan, Gong Zhang, Bin Liu  
+*IEEE ICPADS 2019*
+
+---
+
+**OBMA: Minimizing Bitmap Data Structure with Fast and Uninterrupted Update Processing** [[link]](https://ieeexplore.ieee.org/document/8624188)  
+<span style="font-size:90%">
+<span style="background:#4CAF50; color:white; border-radius:6px; padding:2px 6px;">Network</span>
+<span style="background:#2196F3; color:white; border-radius:6px; padding:2px 6px;">Data Structure</span>
+<span style="background:#FF9800; color:white; border-radius:6px; padding:2px 6px;">Performance</span>
+</span>  
+Chuwen Zhang, ***Yong Feng***, Haoyu Song, Ying Wan, Wenquan Xu, Yilun Wang, Huichen Dai, Yang Li, Bin Liu  
+*IEEE IWQoS 2018*
 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
