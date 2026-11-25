@@ -49,4 +49,6 @@ Umami Cloud is configured for `jijinfanhua.github.io`. The public website ID and
 
 Open the site's Umami dashboard and select a date range. **Visitors** estimates distinct visitors and **Views** counts page loads. Filter by path `/` for the homepage or by the article path for an individual post. Collection starts when the tracker goes live.
 
+The homepage footer shows unique site visitors over the 30 days ending on the displayed date. The `Update public visitor count` workflow checks Umami hourly and publishes a new snapshot when the count or date changes. Its `UMAMI_VISITOR_BOARD` repository secret holds the slug of the Umami board shared for this purpose. Only the count and its timestamp are written to `_data/site_visitors.json`.
+
 [Umami setup guide](https://docs.umami.is/docs/add-a-website) · [Metric definitions](https://docs.umami.is/docs/metric-definitions)

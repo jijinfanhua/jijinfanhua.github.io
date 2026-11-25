@@ -1,0 +1,83 @@
+name: Update public visitor count
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    branches: [master]
+    paths: ['.github/workflows/visitor-count.yml']
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: public-visitor-count
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read the site's visitor total from Umami
+        env:
+          SHARE_SLUG: ${{ secrets.UMAMI_VISITOR_BOARD }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import quote, urlencode
+          from urllib.request import Request, urlopen
+
+          domain = 'jijinfanhua.github.io'
+          website = '470329d8-2e4b-4e56-8019-0218e4aa971a'
+          api = 'https://cloud.umami.is/analytics/us/api'
+          def read(url, headers=None):
+              request = Request(url, headers={'Accept': 'application/json', 'User-Agent': 'homepage-visitor-count', **(headers or {})})
+              with urlopen(request, timeout=20) as response:
+                  return json.load(response)
+
+          share = read(f"{api}/share/{quote(os.environ['SHARE_SLUG'], safe='')}")
+          if website not in share['websiteIds']:
+              raise ValueError('The visitor board points to a different site')
+          now = int(time.time() * 1000)
+          params = urlencode({'type': 'hostname', 'startAt': now - 30 * 86400000, 'endAt': now})
+          rows = read(f'{api}/websites/{website}/metrics?{params}', {
+              'x-umami-share-context': '1', 'x-umami-share-token': share['token']
+          })
+          if not isinstance(rows, list):
+              raise ValueError('Expected a list of hostname totals')
+          visitors = next((row['y'] for row in rows if row['x'] == domain), 0)
+          if type(visitors) is not int or visitors < 0:
+              raise ValueError('Invalid visitor total')
+          updated = datetime.fromtimestamp(now / 1000, timezone.utc).isoformat(timespec='seconds')
+          Path('visitors.json').write_text(json.dumps({'visitors': visitors, 'updatedAt': updated}) + '\n')
+          PY
+
+      - name: Update the snapshot used to build the homepage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          endpoint="repos/$GITHUB_REPOSITORY/contents/_data/site_visitors.json"
+          gh api "$endpoint?ref=master" > existing.json
+          jq -r .content existing.json | base64 --decode > previous.json
+          # Refresh on a change in visitors and at least once per UTC day.
+          fingerprint='[.visitors, .updatedAt[:10]]'
+          if [[ "$(jq -c "$fingerprint" visitors.json)" != "$(jq -c "$fingerprint" previous.json)" ]]; then
+            gh api --silent --method PUT "$endpoint" \
+              -f branch=master -f message='Update homepage visitor total' \
+              -f sha="$(jq -r .sha existing.json)" -f content="$(base64 -w0 visitors.json)"
+          elif [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ]]; then
+            # A previous run can save the count and then fail to queue its build.
+            updated=$(jq -r .updatedAt previous.json)
+            curl -fsSL --retry 2 --max-time 30 https://jijinfanhua.github.io/ -o homepage.html
+            if grep -Fq "data-updated-at=\"$updated\"" homepage.html; then
+              exit 0
+            fi
+          fi
+          # A commit made with GITHUB_TOKEN does not itself trigger a Pages build.
+          gh api --silent --method POST "repos/$GITHUB_REPOSITORY/pages/builds"

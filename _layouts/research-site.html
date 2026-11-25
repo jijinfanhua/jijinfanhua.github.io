@@ -28,6 +28,15 @@
   <main class="shell" id="main">
     {{ content }}
   </main>
-  <footer class="shell footer"><span>Yong Feng <span lang="zh">冯勇</span></span><a href="#top">Back to top</a></footer>
+  <footer class="shell footer">
+    <div>
+      <span>Yong Feng <span lang="zh">冯勇</span></span>
+      {% if page.url == '/' and site.data.site_visitors %}
+        {% assign snapshot = site.data.site_visitors %}
+        <div><small id="site-visitors" data-updated-at="{{ snapshot.updatedAt | escape }}" title="Umami · Updated {{ snapshot.updatedAt | date_to_xmlschema }}">{{ snapshot.visitors }} {% if snapshot.visitors == 1 %}visitor{% else %}visitors{% endif %} in the 30 days ending <time datetime="{{ snapshot.updatedAt | date: '%Y-%m-%d' }}">{{ snapshot.updatedAt | date: '%b %d, %Y' }}</time></small></div>
+      {% endif %}
+    </div>
+    <a href="#top">Back to top</a>
+  </footer>
 </body>
 </html>
