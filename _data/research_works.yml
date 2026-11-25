@@ -26,7 +26,8 @@
 - title: "Empower Programmable Pipeline for Advanced Stateful Packet Processing"
   venue: "USENIX NSDI"
   year: 2024
-  authors: "Yong Feng, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu"
+  authors: "Yong Feng†, Zhikang Chen†, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu"
+  detail: "† Co-first authors."
   url: "https://www.usenix.org/conference/nsdi24/presentation/feng-yong"
   selected: true
   topic: "Programmable networks"
