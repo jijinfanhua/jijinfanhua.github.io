@@ -35,7 +35,8 @@
 - title: "OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture"
   venue: "ACM SIGCOMM"
   year: 2024
-  authors: "Zhikang Chen*, Yong Feng* (*co-first author), Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu"
+  authors: "Zhikang Chen†, Yong Feng†, Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu"
+  detail: "† Co-first authors."
   url: "https://dl.acm.org/doi/10.1145/3651890.3672214"
   selected: true
   topic: "Programmable networks"
