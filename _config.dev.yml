@@ -11,3 +11,9 @@ comments:
 
 sass:
   style: expanded
+
+include:
+  - .htaccess
+  - _pages
+  - files
+  - _design

@@ -1,0 +1,20 @@
+---
+layout: research-site
+title: Blog
+permalink: /blog/
+description: "Research notes by Yong Feng."
+---
+<header class="page-head"><h1>Blog</h1><p>Research notes on AI infrastructure. <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p></header>
+{% if site.posts.size > 0 %}
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y' }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">No posts published yet.</p>
+{% endif %}

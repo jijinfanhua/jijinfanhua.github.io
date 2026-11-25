@@ -1,0 +1,103 @@
+- title: "Turbo: Efficiently Serving Long-Context Large Language Models with In-Network Aggregation"
+  venue: "ACM SIGCOMM"
+  year: 2026
+  authors: "Ying Wan, Yuchen Xu, Chuwen Zhang, Yingsheng Huang, Yong Feng, Wenquan Xu, Jialin Li, Mingwei Xu, Wenfei Wu, Congcong Miao"
+  selected: true
+  url: "https://doi.org/10.1145/3789240.3829140"
+  topic: "AI systems"
+
+- title: "Enhancing Stateful Processing in Programmable Data Planes: Model and Improved Architecture"
+  venue: "IEEE Transactions on Networking"
+  year: 2025
+  authors: "Yong Feng, Hanyi Zhou, Shuxin Liu, Zhikang Chen, Haoyu Song, Bin Liu"
+  url: "https://doi.org/10.1109/TNET.2024.3510638"
+  detail: "Vol. 33, no. 2, pp. 897–912"
+  selected: true
+  topic: "Programmable networks"
+
+- title: "Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane"
+  venue: "ACM SIGCOMM"
+  year: 2025
+  authors: "Yinchao Zhang, Su Yao, Yong Feng, Kang Chen, Tong Li, Zhuotao Liu, Yi Zhao, Lexuan Zhang, Xiangyu Gao, Feng Xiong, Qi Li, Ke Xu"
+  url: "https://dl.acm.org/doi/10.1145/3718958.3750529"
+  selected: true
+  topic: "AI systems"
+
+- title: "Empower Programmable Pipeline for Advanced Stateful Packet Processing"
+  venue: "USENIX NSDI"
+  year: 2024
+  authors: "Yong Feng, Zhikang Chen, Haoyu Song, Yinchao Zhang, Hanyi Zhou, Ruoyu Sun, Wenkuo Dong, Peng Lu, Shuxin Liu, Chuwen Zhang, Yang Xu, Bin Liu"
+  url: "https://www.usenix.org/conference/nsdi24/presentation/feng-yong"
+  selected: true
+  topic: "Programmable networks"
+
+- title: "OptimusPrime: Unleash Dataplane Programmability through a Transformable Architecture"
+  venue: "ACM SIGCOMM"
+  year: 2024
+  authors: "Zhikang Chen*, Yong Feng* (*co-first author), Shuxin Liu, Haoyu Song, Hanyi Zhou, Tong Yun, Wenquan Xu, Tian Pan, Bin Liu"
+  url: "https://dl.acm.org/doi/10.1145/3651890.3672214"
+  selected: true
+  topic: "Programmable networks"
+
+- title: "OBMA: Scalable Route Lookups With Fast and Zero-Interrupt Updates"
+  year: 2024
+  venue: "IEEE/ACM Transactions on Networking"
+  detail: "Vol. 32, no. 6, pp. 4842–4854"
+  authors: "Chuwen Zhang, Yong Feng, Haoyu Song, Ying Wan, Wenquan Xu, Bin Liu"
+  url: "https://doi.org/10.1109/TNET.2024.3446689"
+
+- title: "ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks"
+  venue: "ACM SIGCOMM"
+  year: 2023
+  authors: "Wenquan Xu, Zijian Zhang, Yong Feng, Haoyu Song, Zhikang Chen, Wenfei Wu, Guyue Liu, Yinchao Zhang, Shuxin Liu, Zerui Tian, Bin Liu"
+  url: "https://doi.org/10.1145/3603269.3604835"
+  selected: true
+  topic: "Programmable networks"
+
+- title: "ISAC: In-Switch Approximate Cache for IoT Object Detection and Recognition"
+  venue: "IEEE INFOCOM"
+  year: 2023
+  authors: "Wenquan Xu, Zijian Zhang, Haoyu Song, Shuxin Liu, Yong Feng, Bin Liu"
+  url: "https://doi.org/10.1109/INFOCOM53939.2023.10229067"
+  selected: true
+  topic: "AI systems"
+
+- title: "Enabling In-situ Programmability in Network Data Plane: From Architecture to Language"
+  venue: "USENIX NSDI"
+  year: 2022
+  authors: "Yong Feng, Zhikang Chen, Haoyu Song, Wenquan Xu, Jiahao Li, Zijian Zhang, Tong Yun, Ying Wan, Bin Liu"
+  url: "https://www.usenix.org/conference/nsdi22/presentation/feng"
+  selected: true
+  topic: "Programmable networks"
+
+- title: "Extend P4 to Support Runtime Programmability"
+  venue: "P4 Workshop"
+  year: 2022
+  authors: "Yong Feng, Haoyu Song, Bin Liu"
+  type: "talk"
+  video: "https://www.youtube.com/watch?v=BiIdCHfH4Sw"
+  slides: "https://opennetworking.org/wp-content/uploads/2022/05/Yong-Feng-Final-Slide-Deck.pdf"
+
+- title: "In-situ Programmable Switching using rP4: Towards Runtime Data Plane Programmability"
+  venue: "HotNets"
+  year: 2021
+  authors: "Yong Feng, Haoyu Song, Jiahao Li, Zhikang Chen, Wenquan Xu, Bin Liu"
+  url: "https://dl.acm.org/doi/10.1145/3484266.3487367"
+
+- title: "PBC: Effective Prefix Caching for Fast Name Lookups"
+  venue: "IFIP Networking"
+  year: 2020
+  authors: "Chuwen Zhang, Yong Feng, Haoyu Song, Beichuan Zhang, Yi Wang, Ying Wan, Wenquan Xu, Bin Liu"
+  url: "https://ieeexplore.ieee.org/document/9142703"
+
+- title: "P3R: Realizing Robust Routing for VANET Using Trajectory Prediction and Crossroad Recognition"
+  venue: "IEEE ICPADS"
+  year: 2019
+  authors: "Chuwen Zhang, Huichen Dai, Yong Feng, Yang Li, Wenquan Xu, Xuefeng Ji, Ying Wan, Gong Zhang, Bin Liu"
+  url: "https://ieeexplore.ieee.org/document/8975783"
+
+- title: "OBMA: Minimizing Bitmap Data Structure with Fast and Uninterrupted Update Processing"
+  venue: "IEEE IWQoS"
+  year: 2018
+  authors: "Chuwen Zhang, Yong Feng, Haoyu Song, Ying Wan, Wenquan Xu, Yilun Wang, Huichen Dai, Yang Li, Bin Liu"
+  url: "https://ieeexplore.ieee.org/document/8624188"

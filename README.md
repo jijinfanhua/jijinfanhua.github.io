@@ -29,3 +29,24 @@ See more info at https://academicpages.github.io/
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
 
 To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+
+## Publish a blog post
+
+Add a Markdown file such as `_posts/2026-11-25-your-title.md` with the following front matter and your article below it. The site generates the article, lists it at `/blog/` by date, and updates `/feed.xml`. Use `_drafts/` while writing. Run `bundle exec jekyll serve --drafts` for a local draft preview.
+
+```markdown
+---
+title: "Your title"
+description: "A one-sentence summary."
+---
+
+Write your article here.
+```
+
+## Visitor analytics
+
+Umami Cloud is configured for `jijinfanhua.github.io`. The public website ID and script URL are in the `analytics` section of `_config.yml`. The homepage, publications, and blog use this setting. Tracking starts when the built site is published on its HTTPS domain. Local previews are excluded.
+
+Open the site's Umami dashboard and select a date range. **Visitors** estimates distinct visitors and **Views** counts page loads. Filter by path `/` for the homepage or by the article path for an individual post. Collection starts when the tracker goes live.
+
+[Umami setup guide](https://docs.umami.is/docs/add-a-website) · [Metric definitions](https://docs.umami.is/docs/metric-definitions)

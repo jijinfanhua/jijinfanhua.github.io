@@ -1,0 +1,10 @@
+{% assign work = include.work %}
+<li class="work"{% if work.topic %} data-topic="{{ work.topic | escape }}"{% endif %}>
+  <div class="paper-meta"><span>{{ work.venue | escape }}</span><time>{{ work.year }}</time></div>
+  <div>
+    <h3>{% if work.url %}<a href="{{ work.url | escape }}">{{ work.title | escape }}</a>{% else %}{{ work.title | escape }}{% endif %}</h3>
+    <p class="authors">{{ work.authors | escape | replace: 'Yong Feng', '<strong>Yong Feng</strong>' }}</p>
+    {% if work.detail %}<p class="detail">{{ work.detail | escape }}</p>{% endif %}
+    {% if work.video %}<div class="links"><a href="{{ work.video }}">Video</a><a href="{{ work.slides }}">Slides</a></div>{% endif %}
+  </div>
+</li>

@@ -1,3 +1,12 @@
-<!-- start custom analytics snippet -->
-
-<!-- end custom analytics snippet -->
+{% if site.analytics.umami_website_id and site.analytics.umami_website_id != empty %}
+  {% assign production_host = site.url | split: '://' | last | split: '/' | first %}
+  <script>
+    if (location.protocol === 'https:' && location.host === {{ production_host | jsonify }}) {
+      const tracker = document.createElement('script');
+      tracker.src = {{ site.analytics.umami_script_url | jsonify }};
+      tracker.dataset.websiteId = {{ site.analytics.umami_website_id | jsonify }};
+      tracker.dataset.domains = {{ production_host | jsonify }};
+      document.head.appendChild(tracker);
+    }
+  </script>
+{% endif %}

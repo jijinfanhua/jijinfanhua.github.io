@@ -1,0 +1,122 @@
+---
+permalink: /header-options/
+layout: none
+sitemap: false
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>页头标识预览 · Yong Feng</title>
+  <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+  <style id="mark-styles">
+    .mark-design { display: inline-flex; align-items: center; flex: none; gap: .72rem; white-space: nowrap; color: var(--navy); line-height: 1; }
+    .mark-design .signature-stamp { display: block; flex: none; }
+    .mark-a .mark-name { font: 600 1.34rem/1 var(--sans); letter-spacing: -.045em; }
+    .mark-b { gap: .46rem; }
+    .mark-b .signature-stamp { scale: .72; margin-inline: -.24rem; align-self: end; }
+    .mark-b .mark-name { font: italic 2.05rem/.96 Baskerville, Georgia, serif; letter-spacing: -.045em; }
+    .mark-c { column-gap: .55rem; }
+    .mark-c .mark-name { display: grid; font: 600 1.04rem/.94 var(--sans); letter-spacing: .105em; }
+    .mark-d { gap: .5rem; border: 1px solid #a6bdce; padding: .28rem .58rem .28rem .36rem; border-radius: 4px; background: #edf4f9; }
+    .mark-d .signature-stamp { scale: .83; margin-inline: -.12rem; }
+    .mark-d .mark-name { display: grid; gap: .25rem; padding-left: .52rem; border-left: 1px solid #a6bdce; font: 600 .94rem/1 ui-monospace, monospace; }
+    .mark-d small { color: var(--accent-dark); font: 400 .63rem/1 ui-monospace, monospace; letter-spacing: .105em; }
+    .bar .signature.preview-mark { display: inline-flex; width: auto; min-width: 44px; text-decoration: none; }
+    @media (max-width: 460px) {
+      .bar:has(.preview-mark) { gap: .7rem; }
+      .bar:has(.preview-mark) nav { gap: .64rem; }
+      .bar:has(.preview-mark) nav a { font-size: .86rem; }
+      .preview-mark .mark-design { gap: .4rem; }
+      .preview-mark .mark-a .mark-name { font-size: 1.06rem; }
+      .preview-mark .mark-b .mark-name { font-size: 1.55rem; }
+      .preview-mark .mark-c .mark-name { font-size: .9rem; }
+      .preview-mark .mark-d { padding: .2rem .3rem; gap: .23rem; }
+      .preview-mark .mark-d .mark-name { font-size: .8rem; padding-left: .32rem; }
+    }
+  </style>
+  <style>
+    body { background: #fff; }
+    .selector { min-height: 0; width: min(62rem, calc(100% - 2.5rem)); margin: 1.35rem auto; }
+    fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+    legend { padding: 0; color: var(--ink); font-size: 1.24rem; font-weight: 600; }
+    .hint { margin: .2rem 0 .85rem; color: var(--subtle); font-size: .91rem; }
+    .choices { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: .65rem; }
+    .choice { display: flex; flex-direction: column; gap: .75rem; align-items: flex-start; padding: .85rem 1rem 1.05rem; border: 1px solid var(--line); border-radius: .5rem; background: var(--page); cursor: pointer; }
+    .choice:hover { border-color: #829fb7; }
+    .choice:has(input:checked) { background: var(--panel); border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .choice:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .choice-label { display: flex; align-items: center; gap: .4rem; color: var(--subtle); font-size: .85rem; }
+    .choice input { margin: 0; accent-color: var(--accent); }
+    .choice .mark-slot { display: grid; min-height: 44px; align-items: center; }
+    iframe { display: block; width: 100%; height: max(37rem, 82vh); border: 0; border-top: 1px solid var(--line); background: var(--page); }
+    @media (max-width: 760px) { .choices { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media (max-width: 420px) {
+      .selector { width: calc(100% - 1.5rem); margin-block: .85rem; }
+      .choice { padding: .55rem; gap: .45rem; }
+      .choice .mark-a { gap: .35rem; }
+      .choice .mark-a .mark-name { font-size: 1.02rem; }
+      .choice .mark-b .mark-name { font-size: 1.45rem; }
+      .choice .mark-d { padding: .13rem .2rem; gap: .22rem; }
+      .choice .mark-d .mark-name { font-size: .8rem; padding-left: .32rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="selector">
+    <fieldset>
+      <legend>页头标识</legend>
+      <p class="hint">点选一种样式，在下方首页查看实际效果。</p>
+      <div class="choices">
+        <label class="choice">
+          <span class="choice-label"><input aria-label="A 简洁横排" type="radio" name="mark" value="A">A · 简洁横排</span>
+          <span class="mark-slot"><span class="mark-design mark-a"><span class="signature-stamp" aria-hidden="true"></span><span class="mark-name">Yong Feng</span></span></span>
+        </label>
+        <label class="choice">
+          <span class="choice-label"><input aria-label="B 斜体署名" type="radio" name="mark" value="B" checked>B · 斜体署名</span>
+          <span class="mark-slot"><span class="mark-design mark-b"><span class="mark-name">Yong Feng</span><span class="signature-stamp" aria-hidden="true"></span></span></span>
+        </label>
+        <label class="choice">
+          <span class="choice-label"><input aria-label="C 双行字标" type="radio" name="mark" value="C">C · 双行字标</span>
+          <span class="mark-slot"><span class="mark-design mark-c"><span class="signature-stamp" aria-hidden="true"></span><span class="mark-name"><span>YONG</span><span>FENG</span></span></span></span>
+        </label>
+        <label class="choice">
+          <span class="choice-label"><input aria-label="D 技术铭牌" type="radio" name="mark" value="D">D · 技术铭牌</span>
+          <span class="mark-slot"><span class="mark-design mark-d"><span class="signature-stamp" aria-hidden="true"></span><span class="mark-name">Yong Feng<small>AI INFRA</small></span></span></span>
+        </label>
+      </div>
+    </fieldset>
+  </main>
+  <iframe id="home-preview" title="所选页头在实际主页上的效果" src="{{ '/' | relative_url }}"></iframe>
+  <script>
+    const preview = document.querySelector("#home-preview");
+    const choices = document.querySelectorAll('input[name="mark"]');
+    const requested = new URL(location.href).searchParams.get("style");
+    for (const input of choices) {
+      if (input.value === requested) input.checked = true;
+      input.addEventListener("change", () => {
+        const url = new URL(location.href);
+        url.searchParams.set("style", input.value);
+        history.replaceState(null, "", url);
+        showSelectedMark();
+      });
+    }
+    function showSelectedMark() {
+      const frame = preview.contentDocument;
+      const brand = frame?.querySelector(".bar .signature");
+      if (!brand) return;
+      if (!frame.getElementById("mark-styles")) {
+        frame.head.append(document.getElementById("mark-styles").cloneNode(true));
+      }
+      const selected = document.querySelector('input[name="mark"]:checked');
+      const design = selected.closest("label").querySelector(".mark-design");
+      brand.classList.add("preview-mark");
+      brand.replaceChildren(design.cloneNode(true));
+    }
+    preview.addEventListener("load", showSelectedMark);
+    showSelectedMark();
+  </script>
+</body>
+</html>

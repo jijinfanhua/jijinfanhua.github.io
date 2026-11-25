@@ -1,0 +1,68 @@
+---
+layout: research-site
+title: Yong Feng
+description: "Yong Feng is an AI Infrastructure Architect and Research Scientist at ByteDance in Beijing. He works on systems for training and serving LLMs."
+---
+<section class="profile" aria-labelledby="name">
+  <div class="intro">
+    <h1 id="name">Yong Feng</h1>
+    <div class="identity">
+      <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="80" height="80" alt="Yong Feng speaking at a conference">
+      <div><p class="role">AI Infrastructure Architect and Research Scientist at <strong>ByteDance</strong></p><p class="location">Beijing, China</p></div>
+    </div>
+    <p class="research-intro">I work on <strong>AI infrastructure</strong> for training and serving LLMs.</p>
+    <div class="links">
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
+    </div>
+  </div>
+  <figure class="inference" aria-labelledby="inference-title">
+    <div class="figure-heading"><h2 id="inference-title">Inside LLM inference</h2></div>
+    <div class="figure-body">
+      <div class="matrix-panel" role="img" aria-label="Causal attention matrix for a six-token prompt. Each query attends to its own position and earlier keys.">
+        <span class="axis-y">Queries</span>
+        <div class="matrix" aria-hidden="true">{% for row in (1..10) %}{% for col in (1..10) %}<i{% if row <= 6 and col <= row %} class="computed"{% endif %}></i>{% endfor %}{% endfor %}</div>
+        <span class="axis-x">Keys</span>
+      </div>
+      <div class="figure-legend">
+        <span><i class="swatch computed"></i>Current step</span>
+        <span><i class="swatch prior"></i>Earlier steps</span>
+      </div>
+    </div>
+    <figcaption>
+      <div class="inference-controls" hidden>
+        <div class="mode" role="group" aria-label="Inference phase">
+          <button type="button" data-phase="prefill" aria-pressed="true">Prefill</button>
+          <button type="button" data-phase="decode" aria-pressed="false">Decode</button>
+        </div>
+        <button class="step" type="button" hidden>Next token</button>
+      </div>
+      <p class="explanation" aria-live="polite">Prefill processes the six prompt tokens together. Each query can attend only to its own position and earlier keys.</p>
+    </figcaption>
+  </figure>
+</section>
+
+  <section class="career" aria-labelledby="career-title">
+    <h2 id="career-title">Experience &amp; education</h2>
+    <ol class="timeline">
+      <li><span class="dates">Apr 2026 – present</span><h3>ByteDance</h3><p>AI Infrastructure Architect and Research Scientist · Beijing</p></li>
+      <li><span class="dates">Jul 2024 – Mar 2026</span><h3>Huawei</h3><p>Technical Expert in LLM serving and networks · Beijing</p></li>
+      <li><span class="dates">Sep 2018 – Jun 2024</span><h3>Tsinghua University</h3><p>Ph.D. in Computer Science and Technology</p><p>Advised by Prof. Bin Liu</p></li>
+    </ol>
+  </section>
+
+<section class="selected" id="publications">
+  {% assign selected = site.data.research_works | where: 'selected', true %}
+  <div class="section-heading"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All publications</a></div>
+  <div class="paper-filters" role="group" aria-label="Filter selected publications" hidden>
+    <button type="button" aria-controls="selected-list" aria-pressed="true" data-topic="all">All ({{ selected | size }})</button>
+    {% assign topics = selected | map: 'topic' | uniq %}
+    {% for topic in topics %}<button type="button" aria-controls="selected-list" aria-pressed="false" data-topic="{{ topic | escape }}">{{ topic | escape }}</button>{% endfor %}
+  </div>
+  <p class="sr-only" id="paper-count" aria-live="polite"></p>
+  <ul class="works picks" id="selected-list">
+    {% for work in selected %}{% include research-work.html work=work %}{% endfor %}
+  </ul>
+</section>
+<script defer src="{{ '/assets/js/profile-interactions.js' | relative_url }}"></script>
