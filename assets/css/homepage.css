@@ -159,6 +159,9 @@ h2 { font-size: clamp(1.6rem, 2.9vw, 2.15rem); letter-spacing: -.045em; line-hei
 .prose blockquote { border-left: 2px solid var(--accent); margin-left: 0; padding-left: 1em; }
 .footer { gap: 1.5rem; border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.3rem 0 2rem; color: var(--subtle); font-size: .9rem; }
 .footer span[lang] { margin-left: .4rem; }
+#site-visitors { display: block; margin-top: .45rem; line-height: 1.5; }
+.traffic-period { display: block; }
+.traffic-period time, .footer > a { white-space: nowrap; }
 main { min-height: 60vh; }
 
 .paper-filters { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0; }

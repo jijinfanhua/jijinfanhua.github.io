@@ -3,7 +3,7 @@ name: Update public visitor count
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '7,22,37,52 * * * *'
   push:
     branches: [master]
     paths: ['.github/workflows/visitor-count.yml']
@@ -45,13 +45,11 @@ jobs:
           if website not in share['websiteIds']:
               raise ValueError('The visitor board points to a different site')
           now = int(time.time() * 1000)
-          params = urlencode({'type': 'hostname', 'startAt': now - 30 * 86400000, 'endAt': now})
-          rows = read(f'{api}/websites/{website}/metrics?{params}', {
+          params = urlencode({'hostname': domain, 'startAt': now - 30 * 86400000, 'endAt': now})
+          stats = read(f'{api}/websites/{website}/stats?{params}', {
               'x-umami-share-context': '1', 'x-umami-share-token': share['token']
           })
-          if not isinstance(rows, list):
-              raise ValueError('Expected a list of hostname totals')
-          visitors = next((row['y'] for row in rows if row['x'] == domain), 0)
+          visitors = stats['visitors']
           if type(visitors) is not int or visitors < 0:
               raise ValueError('Invalid visitor total')
           updated = datetime.fromtimestamp(now / 1000, timezone.utc).isoformat(timespec='seconds')
@@ -65,9 +63,9 @@ jobs:
           endpoint="repos/$GITHUB_REPOSITORY/contents/_data/site_visitors.json"
           gh api "$endpoint?ref=master" > existing.json
           jq -r .content existing.json | base64 --decode > previous.json
-          # Refresh on a change in visitors and at least once per UTC day.
-          fingerprint='[.visitors, .updatedAt[:10]]'
-          if [[ "$(jq -c "$fingerprint" visitors.json)" != "$(jq -c "$fingerprint" previous.json)" ]]; then
+          sampled_at=$(date -d "$(jq -r .updatedAt visitors.json)" +%s)
+          previous_at=$(date -d "$(jq -r .updatedAt previous.json)" +%s)
+          if [[ "$(jq .visitors visitors.json)" != "$(jq .visitors previous.json)" ]] || (( sampled_at - previous_at >= 21600 )); then
             gh api --silent --method PUT "$endpoint" \
               -f branch=master -f message='Update homepage visitor total' \
               -f sha="$(jq -r .sha existing.json)" -f content="$(base64 -w0 visitors.json)"
