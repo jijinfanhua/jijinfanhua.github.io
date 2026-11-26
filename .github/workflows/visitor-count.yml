@@ -3,7 +3,7 @@ name: Update public visitor count
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '2-59/5 * * * *'
   push:
     branches: [master]
     paths: ['.github/workflows/visitor-count.yml']

@@ -34,10 +34,9 @@
       <span>Yong Feng <span lang="zh">冯勇</span></span>
       {% if page.url == '/' and site.data.site_visitors %}
         {% assign snapshot = site.data.site_visitors %}
-        {% assign as_of = snapshot.updatedAt | date_to_xmlschema %}
         <small id="site-visitors" data-updated-at="{{ snapshot.updatedAt | escape }}">
           <span>{{ snapshot.visitors }} unique {% if snapshot.visitors == 1 %}visitor{% else %}visitors{% endif %}</span>
-          <span class="traffic-period">Site-wide · Last 30 days · As of <time datetime="{{ as_of }}">{{ as_of | date: '%b %-d, %H:%M UTC%:z' }}</time></span>
+          <span class="traffic-period">Site-wide · Last 30 days</span>
         </small>
       {% endif %}
     </div>
